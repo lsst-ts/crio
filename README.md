@@ -24,16 +24,16 @@ Setup a National Instruments cRIO for Python 3.6.7 and ts_sal
 
 # Setup ts_SAL
 - nano setup.env
-    Uncomment and change LSST_SDK_INSTALL to /home/admin/ts_sal
-    Uncomment and change OSPL_HOME to /home/admin/ts_opensplice/OpenSpliceDDS/V6.4.1/HDE/x86_64.linux
-    Uncomment PYTHON_BUILD_VERSION
-    Uncomment and change PYTHON_BUILD_LOCATION to /usr
-    Uncomment LSST_DDS_DOMAIN
-    Comment out the JAVA_HOME line
-    Change LD_LIBRARY_PATH to ${SAL_HOME}/lib:${SAL_WORK_DIR}/lib:${LD_LIBRARY_PATH}
-    Comment out the LD_PRELOAD line
-    Change PATH to ${SAL_HOME}/bin:${SAL_WORK_DIR}/lib:${PATH}
-    Delete the second LD_LIBRARY_PATH line
+-    Uncomment and change LSST_SDK_INSTALL to /home/admin/ts_sal
+-    Uncomment and change OSPL_HOME to /home/admin/ts_opensplice/OpenSpliceDDS/V6.4.1/HDE/x86_64.linux
+-    Uncomment PYTHON_BUILD_VERSION
+-    Uncomment and change PYTHON_BUILD_LOCATION to /usr
+-    Uncomment LSST_DDS_DOMAIN
+-    Comment out the JAVA_HOME line
+-    Change LD_LIBRARY_PATH to ${SAL_HOME}/lib:${SAL_WORK_DIR}/lib:${LD_LIBRARY_PATH}
+-    Comment out the LD_PRELOAD line
+-    Change PATH to ${SAL_HOME}/bin:${SAL_WORK_DIR}/lib:${PATH}
+-    Delete the second LD_LIBRARY_PATH line
 - source setup.env
 
 # Validate nifpga
